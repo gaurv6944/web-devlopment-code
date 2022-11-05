@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+
+        .container{
+            border: 2px solid red;
+            background-color: rgb(72, 186, 85);
+            height: 2300px;
+        }
+        .box{
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+
+        }
+        #box3{
+            /* relative position = relatine to its original position move ans leave a gap */
+         
+            /* position: relative;
+            left: 63px; */
+
+            /* absolute = relative to parent box */
+            /* position: absolute;
+            left: 20px; */
+
+/* fixed position = this is used to make chat box, position relative to browser window */
+
+/* position: fixed;
+right: 6px;
+bottom: 4px; */
+
+
+/* sticky= stick to browser window at its original position */
+
+position: sticky;
+top: 3px;
+
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <!--   div.box#box*  => eik sath 4 box banane ke liye   -->
+    
+    <div class="container">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">chat width us</div>
+    <div class="box" id="box4">4</div>
+</div>
+</body>
+</html>

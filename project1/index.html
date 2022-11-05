@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only fitness</title>
+    
+     
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        
+        margin: 0px;
+        padding: 0px;
+        background: url('img/gym.jpg');
+        /* use image for background */
+        color: white;
+        
+height: 1200px;
+    }
+    .left div{
+        text-align: center;
+    }
+
+    .left img{
+        width: 45px;
+        filter: invert(10%);
+        border-radius: 56px;
+        
+    }
+    .left{
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        font-size: 88%;
+        font-family: unset;
+        
+
+
+    }
+    .mid{
+display: block;
+width: 43%;
+margin: 20px auto;
+    
+        
+
+
+    }
+       .right{
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        
+        display: inline-block;
+       }   
+       .navbar{
+
+       }
+   .navbar li{
+font-size: 25px;
+display: inline-block;
+
+
+   }
+   .navbar li a{
+
+    color: white;
+text-decoration: none;
+font-size: 15px;
+padding: 15px 15px;
+
+   }
+   .navbar li a:hover{
+
+
+text-decoration:underline;
+color: rgb(6, 6, 232);
+
+   }
+   .btn{
+    margin: 0px 9px;
+    color:white ;
+    background-color: black;
+    padding: 4px 4px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'bold';
+   }
+   .btn:hover
+   {
+    background-color: blue;
+
+   }
+.container{
+
+    border: 2px solid red;
+
+    margin: 72px 20px;
+    padding:  48px 8px;
+    border-radius: 10px;
+    width: 30%;
+    text-decoration: underline;
+    border-color: white;
+    color: white;
+}
+.container div{
+    text-decoration: none;
+}
+.container h1{
+
+
+    
+    text-align: center;
+    
+}
+.form.group input{
+    
+    padding: 6px 41px;
+    border-radius: 10px;
+    display: block;
+    margin: 4px auto;
+    /* if we use display block the we use margin auto for cetre the text or button */
+}
+.container button
+{
+    display: block;
+    margin: 4px auto;
+    color: 4px blue;
+    background-color: red;
+    width: 55%;
+    text-decoration: none;
+
+}
+
+
+    
+</style>
+<body>
+    <header class="header">
+<!-- for logo -->
+        <div class="left">
+<img src="img/logo.jpg" alt="">
+<div>
+    Fitness
+</div>
+        </div>
+        <!-- for nav bar -->
+<div class="mid">
+   <ul class="navbar">
+<li><a href="#">Home</li>
+<li><a href="#">About Us</li>
+<li><a href="#">Fitness Calculator</li>
+<li><a href="#"> Contact Us</li>
+
+
+
+</ul>
+
+
+</div>
+<!-- for other button-->
+<div class="right">
+
+    <button class="btn">Call Us</button>
+    <button class="btn">Email Us</button>
+
+</div>
+
+
+    </header>
+
+    <div class="container">
+<h1>Join the best gym </h1>
+<form action="noaction.php">
+
+<div class="form group">
+
+<input type="text" name="" placeholder="Enter your name">
+
+</div>
+<div class="form group">
+
+<input type="text" name="" placeholder="Enter your last name">
+
+</div>
+<div class="form group">
+
+<input type="text" name="" placeholder="Enter your number">
+
+</div>
+
+
+<button class="btn">Submit</button>
+
+
+</form>
+        
+        
+        </div>
+         
+
+
+</body>
+</html>

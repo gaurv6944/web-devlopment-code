@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>visibility and z index</title>
+    <style>
+.box{
+    position: relative;
+    top: 150px;
+    z-index: 7;
+    /* z index work for position:relative,abslute,fixed or sticky */
+    /* kaun sa element apne relative element par prabhavi hoga y nhi ye uski value par depend krta h  */
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+}
+#box1{background-color: green;}
+#box2{
+    position: relative;
+    top: 56px;
+    z-index: 8;
+    /* visibility: hidden;  */
+    /* will hide the space and element  */
+
+     /* display: none; */
+     /* will hide the only element not space  */
+    
+    background-color:red ;}
+#box3{background-color:blue ;}
+#box4{background-color:rgb(255, 208, 0) ;}
+
+
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">box1</div>
+    <div class="box" id="box2">box2</div>
+    <div class="box" id="box3">box3</div>
+    <div class="box" id="box4">bpx4</div>
+</body>
+</html>

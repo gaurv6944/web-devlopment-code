@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selector and mode signing</title>
+    <style>
+        .container
+        {
+            border:3px solid red;
+            margin:34px auto;
+            /* shift of to take paragraph in centre */
+            padding: 34px ;
+            background-color: antiquewhite;
+            width: 666px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            /* this is used for removing the underline  */
+        }
+        a:hover{
+
+            color: rgb(236, 189, 189);
+background-color: rgb(93, 57, 57);
+            /* jab hum button of teer leke jaye to uska color kya ho */
+        }
+        .btn{
+            background-color:red;
+            padding: 4px;
+            cursor: pointer;
+            border: none;
+            font-size: 13px;
+            border-radius: 3px;
+        }
+        a:visited{
+            /* jish  ink ko hamnek khol liya hain vo alag rang ki dikhe */
+color: yellow;
+background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+         <h3>This is pseudo and mode signing</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt recusandae odio voluptatibus omnis. Expedita amet eveniet quis dolorum repellat ullam exercitationem fuga, debitis aut minus provident esse, ad distinctio fugiat.
+         </p>
+         <a href="https://google.com"class="btn">read more</a>
+         <a href="https://unsplsh.com" class="btn"> unsplash</a>
+         <button class="btn">contact us</button>
+         
+    </div>
+</body>
+</html>

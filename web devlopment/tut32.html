@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribute and nth child pseudo selectors</title>
+    <style>
+.container{
+    display: block;
+    width: 233px;
+    margin: auto;
+}
+input{
+    display: block;
+}
+/* it is used inside anchor for target */
+
+ a[target]
+ {
+    color: green;
+    font-size: 45px;
+ }
+ /* this is used for that target which is conatain about */
+ a[target='_about']
+ {
+    color: red;
+    font-size: 45px;
+ }
+ /* this is used which type is text
+ */
+input[type='text']
+{
+    padding: 32px;
+    border: solid red;
+}
+li:nth-child(2n){
+color: brown;
+}
+li:nth-child(odd){
+    background-color: aqua;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <h1><a href="http://google.com" target="_blank"> go to google</a></h1>
+        <h1><a href="http://facebook.com" target="_about"> go to facebook</a></h1>
+        <form action="" class="form- control">
+
+<input type="text" placeholder="Enter your name">
+
+<input type="password" placeholder="Enter your password">
+
+<input type="submit" placeholder="Submit">
+
+
+
+
+
+
+        </form>
+        <ul>
+             <li class="item" id="item-1">item1</li>
+             <li class="item" id="item-2">item2</li>
+             <li class="item" id="item-3">item3</li>
+             <li class="item" id="item-4">item4</li>
+             <li class="item" id="item-5">item5</li>
+             <li class="item" id="item-6">item6</li>
+             <li class="item" id="item-7">item7</li>
+             <li class="item" id="item-8">item8</li>
+             <li class="item" id="item-9">item9</li>
+             <li class="item" id="item-10">item10</li>
+        </ul>
+    </div>
+</body>
+</html>
